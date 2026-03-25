@@ -1,4 +1,4 @@
-# SpecBridgeAIDelphiToPython (黑潮專案)
+# SpecBridgeAIDelphiToPython
 
 ## 專案簡介
 SpecBridgeAIDelphiToPython 是一個基於 AI 驅動的強大平台，專為協助舊有系統遷移到現代 Python Flask Web 應用程式而設計。該平台運用先進的大型語言模型 (LLM) 來分析來自不同程式語言的原始碼，建立中介文件和系統分析 (SA) 文件，並產生等效的 Flask 實作，同時保持業務邏輯和功能完整性。
