@@ -1,0 +1,14 @@
+python-dotenv
+requests
+tiktoken
+
+fastapi
+aiofiles
+python-multipart
+chardet
+langchain_openai
+pandas
+langgraph
+uvicorn[standard]
+cryptography
+python-magic

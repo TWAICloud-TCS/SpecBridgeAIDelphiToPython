@@ -1,0 +1,14 @@
+networks:
+  my_network:  # Define a custom network
+    driver: bridge
+
+services:
+    backend:
+      image: digital-kuroshio-backend:latest
+      container_name: backend_service
+      networks:
+        - my_network
+      ports:
+        - "3000:3000"
+      volumes:
+        - ./Frontend:/usr/src/Frontend

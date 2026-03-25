@@ -1,0 +1,18 @@
+networks:
+  my_network:  # Define a custom network
+    driver: bridge
+
+services:
+    backend:
+      build: 
+        context: Backend
+        dockerfile: Dockerfile
+      container_name: backend_service
+      networks:
+        - my_network
+      ports:
+        - "3000:3000"
+      volumes:
+        - ./Backend:/usr/src/Backend
+        - ./Frontend:/usr/src/Frontend
+        - ./data:/usr/src/data
